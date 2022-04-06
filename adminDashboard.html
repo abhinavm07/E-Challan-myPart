@@ -32,9 +32,9 @@
       <!-- <div class="header">
               <h2>Create Challan</h2>
             </div> -->
-      <label>Challan ID</label>
+      <label>Challan ID:</label>
       <input id="challan-id" type="text" placeholder="Challan ID" required />
-      <label>License</label>
+      <label>License:</label>
       <input
         id="license-num"
         type="text"
@@ -48,12 +48,20 @@
         placeholder="Vehicle Number"
         required
       />
-      <label>Username</label>
+      <label>Username:</label>
       <input id="username" type="text" placeholder="Username" required />
       <label>Traffic ID:</label>
       <input id="traffic-id" type="text" placeholder="Traffic ID" required />
       <label>Fine</label>
       <input id="fine-amount" type="text" placeholder="Fine Amount" required />
+
+      <label id="formLabel" for="formComplete">All Fields Filled ?</label>
+      <input
+        type="checkbox"
+        id="checkbox"
+        name="formComplete"
+        value="fieldsFilled"
+      />
       <input id="submitData" type="submit" value="Save Data" />
     </div>
 
